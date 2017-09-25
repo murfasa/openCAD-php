@@ -99,7 +99,7 @@ This program comes with ABSOLUTELY NO WARRANTY; Use at your own risk.
 
             <!-- /menu footer buttons -->
             <div class="sidebar-footer hidden-small">
-              <a data-toggle="tooltip" data-placement="top" title="Settings">
+              <a data-toggle="tooltip" data-placement="top" title="Settings" href="./profile.php">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
               </a>
               <a data-toggle="tooltip" data-placement="top" title="FullScreen">
@@ -108,7 +108,7 @@ This program comes with ABSOLUTELY NO WARRANTY; Use at your own risk.
               <a data-toggle="tooltip" data-placement="top" title="Go to Dashboard" href="/dashboard.php">
                 <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
               </a>
-              <a data-toggle="tooltip" data-placement="top" title="Logout" href="/actions/logout.php">
+              <a data-toggle="tooltip" data-placement="top" title="Logout" href="./actions/logout.php?responder=<?php echo $_SESSION['identifier'];?>">
                 <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
               </a>
             </div>
@@ -133,7 +133,7 @@ This program comes with ABSOLUTELY NO WARRANTY; Use at your own risk.
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
                     <li><a href="../profile.php">My Profile</a></li>
                     <li><a href="https://github.com/ossified/openCad/issues">Help</a></li>
-                    <li><a href="../actions/logout.php"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                    <li><a href="./actions/logout.php?responder=<?php echo $_SESSION['identifier'];?>"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                   </ul>
                 </li>
 

@@ -98,11 +98,9 @@ This program comes with ABSOLUTELY NO WARRANTY; Use at your own risk.
 
             <!-- /menu footer buttons -->
             <div class="sidebar-footer hidden-small">
-              <!--
-                —— Left in for user settings. To be introduced later. Probably after RC1. ——
-              <a data-toggle="tooltip" data-placement="top">
+              <a data-toggle="tooltip" data-placement="top" title="Settings" href="./profile.php">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-              </a>-->
+              </a>
               <a data-toggle="tooltip" data-placement="top" title="FullScreen" onclick="toggleFullScreen()">
                 <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
               </a>
